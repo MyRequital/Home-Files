@@ -1,0 +1,113 @@
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+~$*
+*.tmp
+
+# Compiled source #
+#####################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.pyo
+*.so
+*.ncb
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.aps
+*.pch
+*.vs
+*.build
+*.mk
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.bak
+
+# Editor/IDE-specific files #
+############################
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.userprefs
+workspace.xml
+
+# Build artifacts #
+##################
+dist/
+build/
+target/
+out/
+
+# Dependency directories #
+#########################
+node_modules/
+venv/
+env/
+
+# Sensitive information #
+########################
+*.key
+*.pem
+*.p12
+config.ini
+secrets.ini
+credentials.json
+*.env
+.env
+
+# Temporary files #
+##################
+tmp/
+temp/
+*.cache
+*.DS_Store?
+._*
+
+# Specific project files (adjust to your project) #
+#################################################
+# Example for Python/Django:
+# local_settings.py
+# db.sqlite3
+
+# Example for Node.js:
+# .env
+
+# Example for PHP:
+# vendor/
+# .env
+
+# Игнорировать файлы с именами, начинающимися с ._, т.к. они создаются на macOS
+._*
+
+# Игнорировать файлы, содержащие слова password или secret
+*password*
+*secret*
